@@ -11,7 +11,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:weightSum="2"
-        android:background="@color/background_results">
+        android:background="#fffff8aa">
 
         <TextView
             android:layout_width="fill_parent"
@@ -26,14 +26,14 @@
             android:layout_weight="2" />
 
         <ImageButton
-            android:layout_width="150dp"
+            android:layout_width="97dp"
             android:layout_height="40dp"
             android:id="@+id/btn_c"
             android:textAlignment="center"
 
             android:layout_gravity="right"
             android:layout_weight="1"
-            android:background="#ff703437"
+            android:background="#ff3cbbe5"
             android:scaleType="centerInside"
             android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
 
@@ -52,7 +52,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="3"
             android:weightSum="4"
-            android:background="@color/background_numbers">
+            android:background="#ff2bacff">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -220,7 +220,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:weightSum="4"
-            android:background="@color/background_operations">
+            android:background="#ff9dff56">
 
             <ImageButton
                 android:layout_width="35dp"
