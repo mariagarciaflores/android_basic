@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcccccc"
+    android:weightSum="10">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_titulo"
+        android:layout_gravity="center_horizontal"
+        android:text="ELIGE EL DEPARTAMENTO :"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColorHint="#ffffe075" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="Cochabamba"
+        android:id="@+id/btn_cbba"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ff608fa0" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="LaPaz"
+        android:id="@+id/btn_lpz"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ff608fa0" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="SantaCruz"
+        android:id="@+id/btn_stcz"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ff608fa0" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="Beni"
+        android:id="@+id/btn_Beni"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ff608fa0" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="Tarija"
+        android:id="@+id/btn_Tarija"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ff608fa0" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="Chuquisaca"
+        android:id="@+id/btn_Cuquisaca"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ff608fa0" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="Pando"
+        android:id="@+id/btn_Pando"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ff608fa0" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="Oruro"
+        android:id="@+id/btn_Oruro"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#ff608fa0" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:text="Potosi"
+        android:id="@+id/btn_Potosi"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+
+        android:background="#ff608fa0" />
+
+</LinearLayout>

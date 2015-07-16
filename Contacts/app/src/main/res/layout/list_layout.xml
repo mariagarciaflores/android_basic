@@ -1,6 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="#ff000000"
+    android:id="@+id/contact_layout_1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:weightSum="6"
+        android:id="@+id/txt_first_layout"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:id="@+id/image_layout">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/contact_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@android:drawable/ic_menu_myplaces" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/txt_contact_layout">
+
+            <TextView
+                android:id="@+id/txtContactName_insert"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="24sp"
+                android:textColor="#ffffffff"
+                android:enabled="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="textPersonName"
+                android:nestedScrollingEnabled="false"
+                android:singleLine="true"
+                android:textAlignment="inherit"
+                android:typeface="normal"
+                android:layout_marginTop="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/phone_layout_1"
+        android:weightSum="6"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/phone_image_layout"
+            android:layout_weight="5">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/phone_image"
+                android:layout_marginLeft="10dp"
+                android:background="@android:drawable/sym_action_call" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/txt_phone_layout">
+
+            <TextView
+                android:id="@+id/txtPhone_insert"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="24sp"
+                android:editable="false"
+                android:textColor="#ffffffff"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textAlignment="inherit"
+                android:typeface="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/email_layout_1"
+        android:weightSum="6"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:id="@+id/email_image_layout">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/email_layout"
+                android:layout_marginLeft="10dp"
+                android:background="@android:drawable/sym_action_email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtEmail_insert"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="24sp"
+                android:textColor="#ffffffff"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textAlignment="inherit"
+                android:typeface="normal" />
+        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
